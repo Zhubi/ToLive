@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>To Live 隐私政策 · Privacy Policy</title>
+  <meta name="description" content="To Live 隐私政策与数据说明 / Privacy Policy for To Live" />
+  <style>
+    :root{
+      --bg:#0f1115;--card:#151823;--text:#e8eef8;--muted:#9fb0c9;--accent:#6aa3ff;--ok:#45c27c;--bad:#ff6b6b;--border:#222739
+    }
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","Segoe UI",Roboto,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji",sans-serif;line-height:1.7}
+    .container{max-width:960px;margin:0 auto;padding:28px 20px}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:20px}
+    header{display:flex;gap:12px;flex-wrap:wrap;align-items:center;justify-content:space-between;margin-bottom:14px}
+    .title h1{font-size:24px;line-height:1.35;margin:0}
+    .topmeta{display:flex;gap:8px;flex-wrap:wrap;margin-top:6px}
+    .badge{display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;border:1px solid var(--border);color:var(--muted)}
+    .lang{display:flex;gap:8px}
+    .lang button{border:1px solid var(--border);background:transparent;color:var(--text);padding:6px 10px;border-radius:999px;cursor:pointer}
+    .lang button[aria-pressed="true"]{background:rgba(106,163,255,.12);border-color:transparent;color:var(--accent);font-weight:600}
+    h2{font-size:18px;margin:18px 0 10px}
+    h3{font-size:15px;margin:14px 0 8px;color:var(--muted)}
+    p{margin:10px 0}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .muted{color:var(--muted)}
+    .list{padding-left:18px}
+    .list li{margin:6px 0}
+    .table{width:100%;border-collapse:collapse;background:transparent;border:1px solid var(--border);border-radius:12px;overflow:hidden}
+    .table th,.table td{padding:12px;border-bottom:1px solid var(--border);vertical-align:top}
+    .table th{background:#161a26;text-align:left;color:#c9d6ee}
+    .ok{color:var(--ok)}
+    .bad{color:var(--bad)}
+    .footer{margin-top:20px;font-size:12px;color:var(--muted)}
+    [hidden]{display:none !important}
+    .code{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;background:#0b0d12;border:1px solid var(--border);padding:0 6px;border-radius:6px}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="title">
+        <h1>To Live 隐私政策 · Privacy Policy</h1>
+        <div class="topmeta">
+          <span class="badge">最后更新 Updated: 2026-03-09</span>
+          <span class="badge">应用 App: To Live</span>
+        </div>
+      </div>
+      <div class="lang" aria-label="Language">
+        <button type="button" data-lang="zh" aria-pressed="true">中文</button>
+        <button type="button" data-lang="en" aria-pressed="false">English</button>
+      </div>
+    </header>
+
+    <!-- 中文 -->
+    <main id="zh" lang="zh-Hans">
+      <div class="card">
+        <p class="muted">本政策说明我们如何在 To Live（下称“本应用”）中处理与保护您的数据。我们以“只收集和处理提供核心功能所必需的数据”为原则进行设计。</p>
+
+        <h2 id="summary">一、概要</h2>
+        <ul class="list">
+          <li><b>不收集可识别个人身份信息</b>（PII），如姓名、邮箱、电话号码等。</li>
+          <li><b>无广告与第三方追踪</b>，不嵌入广告或广告追踪 SDK。</li>
+          <li><b>图片 / 视频等媒体处理主要在本地完成</b>，不主动上传到开发者服务器。</li>
+          <li><b>内购通过 Apple 的 App Store / StoreKit 进行</b>，我们无法接触您的支付信息。</li>
+          <li><b>可随时删除数据</b>：删除应用或按系统提供方式清除相应媒体与缓存。</li>
+        </ul>
+
+        <h2 id="data-we-collect">二、我们收集或处理的数据</h2>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>类别</th>
+              <th>示例</th>
+              <th>用途</th>
+              <th>是否与您关联</th>
+              <th>是否对外共享</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>本地媒体处理数据</td>
+              <td>您选择的 Live Photo、视频、由本应用导出的 Live Photo / 视频 / 静态图片，临时缓存文件等</td>
+              <td>在设备本地完成视频与 Live Photo 互转、裁剪、导出等功能</td>
+              <td class="ok">否（仅存于本机或系统相册，由您控制）</td>
+              <td class="ok">否（除非您主动通过系统分享面板分享）</td>
+            </tr>
+            <tr>
+              <td>购买状态</td>
+              <td>一次性解锁“终身会员”（如 ToLive_Pro）是否已生效</td>
+              <td>解锁全部功能、校验购买权益</td>
+              <td class="ok">否（通过 StoreKit 校验，存储为本地授权标记）</td>
+              <td class="ok">否（支付由 Apple 处理）</td>
+            </tr>
+            <tr>
+              <td>诊断信息（可选，由 Apple 统筹）</td>
+              <td>崩溃日志、性能数据（仅当您在系统设置中选择与开发者共享）</td>
+              <td>用于改进应用稳定性与性能</td>
+              <td>可能由 Apple 匿名化后汇总</td>
+              <td class="ok">否（我们不向第三方出售 / 出借）</td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="muted">说明：本应用不要求注册账户，不采集联系人、精确位置、麦克风录音或通讯录等敏感信息。您在本应用中处理或导出的媒体文件由您自行控制，是否分享由您通过系统分享面板决定。</p>
+
+        <h2 id="how-we-use">三、我们如何使用数据</h2>
+        <ul class="list">
+          <li>在设备本地完成视频与 Live Photo 的读取、转换、导出和预览。</li>
+          <li>校验一次性内购是否有效，以解锁完整功能。</li>
+          <li>在您同意与 Apple 共享诊断数据的前提下，用于分析崩溃与性能问题。</li>
+        </ul>
+
+        <h2 id="storage">四、数据存储与保留</h2>
+        <ul class="list">
+          <li>媒体处理过程产生的临时文件通常保存在<b>您的设备本地</b>，可能位于应用沙盒目录或系统相册。</li>
+          <li>我们不在自有服务器上存储您的个人数据或媒体内容。</li>
+          <li>删除方式：您可删除相册中的相关内容，或卸载应用以删除本地缓存与设置数据。</li>
+        </ul>
+
+        <h2 id="sharing">五、数据共享与第三方</h2>
+        <ul class="list">
+          <li>我们<b>不向任何第三方出售、出租或交易</b>您的数据。</li>
+          <li>支付与一次性内购由 Apple 的 <span class="code">App Store / StoreKit</span> 处理；我们无法访问您的支付卡信息。</li>
+          <li>我们不集成第三方广告与追踪 SDK。</li>
+          <li>若您在系统设置中选择与 Apple 共享分析数据，相关数据由 Apple 处理并可能以匿名方式提供给开发者。</li>
+        </ul>
+
+        <h2 id="children">六、未成年人</h2>
+        <p>本应用面向普通用户且不以未成年人为主要受众。我们不会有意收集未成年人的个人信息。如您认为我们在不知情的情况下收集了相关信息，请通过下方方式联系我们以便处理。</p>
+
+        <h2 id="your-rights">七、您的权利</h2>
+        <ul class="list">
+          <li>访问与更正：您的媒体内容由系统相册与本地文件系统管理，您可以随时查看、编辑或删除。</li>
+          <li>删除：可删除相册中由本应用导出的内容，或卸载本应用以删除本地缓存与设置。</li>
+          <li>撤回权限：您可在系统设置中关闭照片访问等权限，此时部分功能将无法使用。</li>
+        </ul>
+
+        <h2 id="purchase">八、内购与解锁</h2>
+        <ul class="list">
+          <li>To Live 采用一次性买断的形式解锁全部功能（如“终身会员”）。</li>
+          <li>购买记录与有效性由 Apple 管理，我们依赖 StoreKit 提供的信息进行本地解锁。</li>
+          <li>您可以通过 App Store 的账户设置界面查看和管理自己的购买记录，并在需要时恢复购买。</li>
+        </ul>
+
+        <h2 id="changes">九、本政策的变更</h2>
+        <p>我们可能会根据功能或法规变化更新本政策。变更将发布于本页面并注明更新日期。如属重大变更，我们会在应用内或通过其他合理方式提示您查看。</p>
+
+        <h2 id="contact">十、联系我们</h2>
+        <p>如有任何与隐私相关的问题或请求，请与我们联系：</p>
+        <ul class="list">
+          <li>电子邮件：<a href="mailto:li1783056381@gmail.com">li1783056381@gmail.com</a></li>
+          <li>开发者主页 / 支持页：<a href="https://zhubi.github.io/Dhyana/" target="_blank" rel="noopener">https://zhubi.github.io/Dhyana/</a></li>
+        </ul>
+
+        <div class="footer">
+          <p>数据控制者：开发者（个人）— 李城洲</p>
+        </div>
+      </div>
+    </main>
+
+    <!-- English -->
+    <main id="en" lang="en" hidden>
+      <div class="card">
+        <p class="muted">This policy explains how we handle and protect your data in To Live (the “App”). We follow a simple principle: collect and process only what is necessary to provide the core features.</p>
+
+        <h2 id="summary-en">1. Summary</h2>
+        <ul class="list">
+          <li><b>No personally identifiable information</b> (PII) is collected (e.g., name, email, phone).</li>
+          <li><b>No ads or third‑party tracking</b>; no ad or tracking SDKs are embedded.</li>
+          <li><b>Photo and video processing is primarily on‑device</b>; media is not proactively uploaded to our servers.</li>
+          <li><b>In‑app purchases are processed by Apple’s App Store / StoreKit</b>; we never see your payment details.</li>
+          <li><b>You can delete data at any time</b> by removing exported media or uninstalling the App.</li>
+        </ul>
+
+        <h2 id="data-we-collect-en">2. Data We Collect or Process</h2>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Category</th>
+              <th>Examples</th>
+              <th>Purpose</th>
+              <th>Linked to You</th>
+              <th>Shared Externally</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>On‑device media data</td>
+              <td>Live Photos and videos you select, exported Live Photos / videos / still images, temporary cache files</td>
+              <td>Enable local conversion between videos and Live Photos, cropping, exporting, and preview</td>
+              <td class="ok">No (controlled by you on your device / photo library)</td>
+              <td class="ok">No (unless you explicitly share via the system share sheet)</td>
+            </tr>
+            <tr>
+              <td>Purchase status</td>
+              <td>Whether the one‑time “lifetime” unlock (e.g., ToLive_Pro) is active</td>
+              <td>Unlock all features and validate entitlements</td>
+              <td class="ok">No (validated via StoreKit, stored as a local entitlement flag)</td>
+              <td class="ok">No (payments are handled by Apple)</td>
+            </tr>
+            <tr>
+              <td>Diagnostics (optional, managed by Apple)</td>
+              <td>Crash logs, performance data (only if you enable sharing in system settings)</td>
+              <td>Improve stability and performance</td>
+              <td>May be aggregated by Apple in anonymized form</td>
+              <td class="ok">No (we do not sell or lend to third parties)</td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="muted">Note: The App does not require account registration, nor does it collect contacts, precise location, microphone recordings, or address book data. Media that you process or export with the App remains under your control; sharing is initiated only by you via the system share sheet.</p>
+
+        <h2 id="how-we-use-en">3. How We Use Data</h2>
+        <ul class="list">
+          <li>Perform on‑device reading, conversion, export, and preview of videos and Live Photos.</li>
+          <li>Verify your one‑time purchase to unlock all features.</li>
+          <li>Analyze crashes and performance issues when you choose to share diagnostics with Apple.</li>
+        </ul>
+
+        <h2 id="storage-en">4. Storage & Retention</h2>
+        <ul class="list">
+          <li>Temporary files created during media processing are stored <b>locally on your device</b>, either in the App sandbox or in the system photo library.</li>
+          <li>We do not store your personal data or media on our own servers.</li>
+          <li>To delete data, you can remove exported content from your photo library or uninstall the App to delete local caches and settings.</li>
+        </ul>
+
+        <h2 id="sharing-en">5. Sharing & Third Parties</h2>
+        <ul class="list">
+          <li><b>No selling, renting, or trading</b> of your data to any third party.</li>
+          <li>Payments and one‑time purchases are handled by Apple’s <span class="code">App Store / StoreKit</span>; we cannot access your card details.</li>
+          <li>No third‑party ad or tracking SDKs are integrated.</li>
+          <li>If you choose to share analytics with Apple, related data is handled by Apple and may be provided to us in an aggregated, anonymized form.</li>
+        </ul>
+
+        <h2 id="children-en">6. Children</h2>
+        <p>The App targets a general audience and is not primarily directed at children. We do not knowingly collect children’s personal information. If you believe such data has been collected inadvertently, please contact us so we can address it.</p>
+
+        <h2 id="your-rights-en">7. Your Rights</h2>
+        <ul class="list">
+          <li>Access & correction: your media is managed by the system photo library and local file system; you can view, edit, or delete it at any time.</li>
+          <li>Deletion: remove content exported by the App or uninstall the App to delete local caches and settings.</li>
+          <li>Withdraw permissions: disable photo access and other permissions in system settings; note that some features will no longer work.</li>
+        </ul>
+
+        <h2 id="purchase-en">8. In‑App Purchase and Unlock</h2>
+        <ul class="list">
+          <li>To Live uses a one‑time purchase model to unlock all features (e.g., a “lifetime” license).</li>
+          <li>Purchase records and validity are managed by Apple; we rely on StoreKit to determine entitlement and unlock features locally.</li>
+          <li>You can view and manage your purchase history in your Apple ID account settings and restore purchases when needed.</li>
+        </ul>
+
+        <h2 id="changes-en">9. Changes to This Policy</h2>
+        <p>We may update this policy to reflect product or regulatory changes. Updates will appear on this page with the revised date. For significant changes, we may notify you in the App or by other reasonable means.</p>
+
+        <h2 id="contact-en">10. Contact Us</h2>
+        <p>For privacy questions or requests, please contact us:</p>
+        <ul class="list">
+          <li>Email: <a href="mailto:li1783056381@gmail.com">li1783056381@gmail.com</a></li>
+          <li>Developer / support page: <a href="https://zhubi.github.io/Dhyana/" target="_blank" rel="noopener">https://zhubi.github.io/Dhyana/</a></li>
+        </ul>
+
+        <div class="footer">
+          <p>Controller: Developer (individual) — Li Chengzhou</p>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script>
+    (function(){
+      const zh = document.getElementById('zh');
+      const en = document.getElementById('en');
+      const buttons = document.querySelectorAll('.lang button');
+      function setLang(lang){
+        const isZh = lang === 'zh';
+        zh.hidden = !isZh;
+        en.hidden = isZh;
+        buttons.forEach(b => b.setAttribute('aria-pressed', String(b.dataset.lang === lang)));
+        try{ localStorage.setItem('privacy_lang', lang); }catch(e){}
+        document.documentElement.lang = isZh ? 'zh-Hans' : 'en';
+      }
+      buttons.forEach(btn => btn.addEventListener('click', () => setLang(btn.dataset.lang)));
+      const saved = (()=>{ try{return localStorage.getItem('privacy_lang')}catch(e){return null} })();
+      if(saved === 'zh' || saved === 'en') setLang(saved); else {
+        const nav = (navigator.language || 'zh').toLowerCase();
+        setLang(nav.startsWith('zh') ? 'zh' : 'en');
+      }
+    })();
+  </script>
+</body>
+</html>
